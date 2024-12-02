@@ -5,7 +5,4 @@ namespace: guestbook-kustomize
 
 resources:
 - guestbook-ui/
-images:
-- name: gcr.io/heptio-images/ks-guestbook-demo
-  newName: nginx
-  newTag: latest
+- deployment.yaml
